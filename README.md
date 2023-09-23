@@ -4,14 +4,17 @@
 
 ## Webinar attendance dashboard (work project)
 
-This is a real data visualization project for one of the companies.
+This is a real data visualization project for one of the companies (data blurred).
 
-**Stakeholders:** CMO, CEO.
+The detailed project description are here: [Project details](Page Link)
 
-**Users:** commercial department.
+- **Stakeholders:** CMO, CEO.
 
-**Deadlines:** MVP release - 1 week, improvements - constantly.
+- **Users:** commercial department.
 
-**Business sense:** reflects the attendance statistics for each individual webinar, as well as generalized data by courses and languages.
+- **Deadlines:** MVP release - 1 week, improvements - constantly.
 
-- [Service Name](Page Link)
+- **Business sense:** reflects the attendance statistics for each individual webinar, as well as generalized data by courses and languages.
+
+<img src="https://github.com/NalaliiaPV/Visualization-Webinar-attendance/blob/main/GDS_Webinar_attentdance_(blured)_1.jpg" width="250">
+

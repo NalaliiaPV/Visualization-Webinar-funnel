@@ -6,7 +6,7 @@
 
 This is a data visualization project for one of the companies (data blurred).
 
-The detailed project description are here: [Project details](Page Link)
+The detailed project description are here: [Project details](project_details.md)
 
 - **Year:** 2022
 - **Stakeholders:** CMO, CEO.

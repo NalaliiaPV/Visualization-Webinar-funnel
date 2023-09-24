@@ -6,7 +6,7 @@ This is a data visualization project for one of the companies (data blurred).
 - **Users:** commercial department.
 - **Deadlines:** Iteration 1 release - 1 week, improvements - constantly.
 - **Business sense:** reflects the attendance statistics for each individual webinar, as well as generalized data by courses and languages.
-- **My role:** data acquisition, data processing, connecting data sources to the GDS, joining tables, visualization.
+- **My role:** data acquisition, data processing, connecting data sources to the GDS, joining tables, visualization. Last iteration - managing all the processes
 
 We launched a webinar funnel. But how to know how things are going? How many people **signed up** for the webinar, and how many **came** to it? Where to look to see these banal numbers, which are so necessary for understanding the situation and making decisions?
 
@@ -38,20 +38,24 @@ Every day I open Calendly and Zoom, download tables with data, store them in **G
 
 ### Iteration 3. 
 
-Grow Team automated uploading from Zoom to Google spreadsheet using a low-code tool after I insisted. I connected Google spreadsheets storing data on webinar registrations and visits to the Google data studio (visualization tool). I put together the dashboard.
+Grow Team automated uploading from Zoom to Google spreadsheet using a low-code tool after I insisted. I connected Google spreadsheets storing data on webinar registrations and visits to the Google data studio (visualization tool). I put together the dashboard by my own.
 
 +++ It’s convenient to work with data in the dashboard. Lots of filters, lots of graphs and tables. They cover all user requests, and it’s very easy to add new visuals.
 
 --- still have to manually download data from Calendly every day.
 
+<img src="https://github.com/NalaliiaPV/Visualization-Webinar-attendance/blob/main/GDS_Webinar_attentdance_(blured)_2.jpg" width="300">
+
 ### Iteration 4.  
 
-Calendly and Zoom were replaced by Bigmarker. DWH appeared. I already have 2 analysts under direct subordination and 1 under project subordination. I secured the allocation of development resources for integrations. I drew up technical requirements for them: what specific data and how often do we need to transfer from BigMarker to the DWH. I created a task in Jira, where I wrote down these requirements. I met with the developers product manager - the task was taken into a sprint. 
+Calendly and Zoom were replaced by **Bigmarker**. DWH appeared. I already have 2 analysts under direct subordination and 1 under project subordination. I secured the allocation of development resources for integrations. I drew up technical requirements for them: what specific data and how often do we need to transfer from BigMarker to the DWH. I created a task in Jira, where I wrote down these requirements. I met with the developers product manager - the task was taken into a sprint. 
 
-After 2 weeks the integrations were implemented. My analysts checked the data - everything was in order. I compiled the terms of reference for one of the analysts for creating a dataset in PostgreSQL, and the terms of reference for another analyst for visualization in Double cloud. I controlled the process, checked the result - done!
+After 2 weeks the integrations were implemented. My analysts checked the data - everything was in order. I compiled the terms of reference for one of the analysts for creating a dataset in PostgreSQL, and the terms of reference for another analyst for visualization in **Double cloud**. I controlled the process, checked the result - done!
 
 +++ data is updated automatically every morning
 
 +++ dashboards are convenient and cover key user requests.
 
-What can we see on the dashboard:
+<img src="Webinar_Schedule_DC_blurred.jpg" width="600">
+
+^^^ Here we can see data for each individual webinar: date and time, live or recorded format, region, course, webinar status, day of the week. The number of registrations, the number of webinar visits (lasting more than zero seconds, 5 minutes, 30 minutes and all), various conversions from registrations to visits, as well as the number of views of recordings.

@@ -8,6 +8,7 @@ This is a data visualization project for one of the companies (data blurred).
 
 The detailed project description are here: [Project details](Page Link)
 
+- **Year:** 2022
 - **Stakeholders:** CMO, CEO.
 - **Users:** commercial department.
 - **Deadlines:** MVP release - 1 week, improvements - constantly.

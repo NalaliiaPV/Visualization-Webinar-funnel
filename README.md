@@ -15,5 +15,5 @@ The detailed project description are here: [Project details](project_details.md)
 - **Business sense:** reflects the attendance statistics for each individual webinar, as well as generalized data by courses and languages.
 - **My role:** data acquisition, data processing, connecting data sources to the GDS, joining tables, visualization.
 
-<img src="https://github.com/NalaliiaPV/Visualization-Webinar-attendance/blob/main/GDS_Webinar_attentdance_(blured)_1.jpg" width="250">
+<img src="https://github.com/NalaliiaPV/Visualization-Webinar-attendance/blob/main/GDS_Webinar_attentdance_(blured)_2.jpg" width="250">
 

@@ -61,3 +61,5 @@ After 2 weeks the integrations were implemented. My analysts checked the data - 
 ^^^ Here we can see data for each individual webinar: date and time, live or recorded format, region, course, webinar status, day of the week. The number of registrations, the number of webinar visits (lasting more than zero seconds, 5 minutes, 30 minutes and all), various conversions from registrations to visits, as well as the number of views of recordings.
 
 ! The webinar at 21:00 stands out. It does not have a high CR, but it has a lot of registrations, and due to this - visits. Why did many times more people sign up for it than usual? There's a lot to explore here.
+
+<img src="Dash_for_Mitia_DC_blurred.jpg" width="400">

@@ -10,13 +10,13 @@ This is a data visualization project for one of the companies (data blurred).
 
 We launched a webinar funnel. But how to know how things are going? How many people **signed up** for the webinar, and how many **came** to it? Where to look to see these banal numbers, which are so necessary for understanding the situation and making decisions?
 
-The **Calendly** service was used to register for the webinar. To conduct webinars - **Zoom**. But the entire project team cannot monitor these services to keep track of the numbers - this is inconvenient. Need a dashboard. To do it wisely, you need to integrate these data sources with DWH, and from there transfer the data to the visualization program. But there is no development resource available. 
+One service was used to register for the webinar. To conduct webinars - another one. But the entire project team cannot monitor these services to keep track of the numbers - this is inconvenient. Need a dashboard. To do it wisely, you need to integrate these data sources with DWH, and from there transfer the data to the visualization program. But there is no development resource available. 
 
 Business can't wait. What should I do to complete the task?
 
 ### Iteration 1. 
 
-Every day I open Calendly and Zoom, write down the numbers in a Google spreadsheet, and calculate the CRs.
+Every day I opened webinar services, write down the numbers in a Google spreadsheet, and calculate the CRs.
 
 +++ fast implementation
 
@@ -30,7 +30,7 @@ Every day I open Calendly and Zoom, write down the numbers in a Google spreadshe
 
 ### Iteration 2. 
 
-Every day I open Calendly and Zoom, download tables with data, store them in **Google spreadsheets**, process and join the data with formulas, calculate the CRs.
+Every day I open webinar services, download tables with data, store them in **Google spreadsheets**, process and join the data with formulas, calculate the CRs.
 
 +++ I spend a little less time
 
@@ -42,13 +42,13 @@ Grow Team automated uploading from Zoom to Google spreadsheet using a low-code t
 
 +++ It’s convenient to work with data in the dashboard. Lots of filters, lots of graphs and tables. They cover all user requests, and it’s very easy to add new visuals.
 
---- still have to manually download data from Calendly every day.
+--- still have to manually download data from registration service every day.
 
 <img src="https://github.com/NalaliiaPV/Visualization-Webinar-attendance/blob/main/GDS_Webinar_attentdance_(blured)_2.jpg" width="300">
 
 ### Iteration 4.  
 
-Calendly and Zoom were replaced by **Bigmarker**. DWH appeared. I already have 2 analysts under direct subordination and 1 under project subordination. I secured the allocation of development resources for integrations. I drew up technical requirements for them: what specific data and how often do we need to transfer from BigMarker to the DWH. I created a task in Jira, where I wrote down these requirements. I met with the developers product manager - the task was taken into a sprint. 
+Two webinar services were replaced by new one. DWH appeared. I already have 2 analysts under direct subordination and 1 under project subordination. I secured the allocation of development resources for integrations. I drew up technical requirements for them: what specific data and how often do we need to transfer from BigMarker to the DWH. I created a task in Jira, where I wrote down these requirements. I met with the developers product manager - the task was taken into a sprint. 
 
 After 2 weeks the integrations were implemented. My analysts checked the data - everything was in order. I compiled the terms of reference for one of the analysts for creating a dataset in PostgreSQL, and the terms of reference for another analyst for visualization in **Double cloud**. I controlled the process, checked the result - done!
 
@@ -56,6 +56,8 @@ After 2 weeks the integrations were implemented. My analysts checked the data - 
 
 +++ dashboards are convenient and cover key user requests.
 
-<img src="Webinar_Schedule_DC_blurred.jpg" width="600">
+<img src="Webinar_Schedule_DC_blurred.jpg" width="400">
 
 ^^^ Here we can see data for each individual webinar: date and time, live or recorded format, region, course, webinar status, day of the week. The number of registrations, the number of webinar visits (lasting more than zero seconds, 5 minutes, 30 minutes and all), various conversions from registrations to visits, as well as the number of views of recordings.
+
+! The webinar at 21:00 stands out. It does not have a high CR, but it has a lot of registrations, and due to this - visits. Why did many times more people sign up for it than usual? There's a lot to explore here.

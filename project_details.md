@@ -4,7 +4,7 @@ This is a data visualization project for one of the companies (data blurred).
 - **Year:** 2022-2023 (several iterations)
 - **Stakeholders:** CMO, CEO.
 - **Users:** commercial department.
-- **Deadlines:** MVP release - 1 week, improvements - constantly.
+- **Deadlines:** Iteration 1 release - 1 week, improvements - constantly.
 - **Business sense:** reflects the attendance statistics for each individual webinar, as well as generalized data by courses and languages.
 - **My role:** data acquisition, data processing, connecting data sources to the GDS, joining tables, visualization.
 
@@ -30,19 +30,28 @@ Every day I open Calendly and Zoom, write down the numbers in a Google spreadshe
 
 ### Iteration 2. 
 
-Every day I open Calendly and Zoom, download tables with data, store them in Google spreadsheets, process and join the data with formulas, calculate the CRs.
+Every day I open Calendly and Zoom, download tables with data, store them in **Google spreadsheets**, process and join the data with formulas, calculate the CRs.
 
 +++ I spend a little less time
 
 --- in a table it is not convenient to build different slices based on data
 
-Итерация 3. Гроу тим автоматизирует с помощью лоу-код инструмента выгрузку из Zoom в гуглтаблицу. Подключаю гуглтаблицы, хранящие данные о регистрациях и явках, к ГДС. Собираю дашборд.
-+ с данными в дашборде работать удобно. Много фильтров, много графиков и таблиц. Они закрывают все запросы пользователей, и новые визуалы добавить очень легко.
-- все еще приходится выгружать данные из Calendly вручную каждый день.
+### Iteration 3. 
 
-Итерация 4. Calendly и Zoom заменил другой сервис - Бигмаркер. Появился ДВХ. У меня уже появились 2 аналитика в прямом подчинении и 1 в проектном. Я добилась выделения ресурса разработки для интеграций. Составила технические требования для них: какие конкретно данные с какой частотой мы хотим выгружать их Бигмаркера в ДВХ. Создала задачу в Джире, где прописала эти требования. Встретилась с продакт менеджером разработчиков - задачу взяли в спринт. Через 2 недели интеграции были реализованы. Мои аналитики проверили данные - все в порядке. Я составила ТЗ для одного из аналитиков на создание датасета в PostgreSQL, и ТЗ для другого аналитика на визуализацию в Double cloud. Контролировала процесс, проверяла результат - готово!
+Grow Team automated uploading from Zoom to Google spreadsheet using a low-code tool after I insisted. I connected Google spreadsheets storing data on webinar registrations and visits to the Google data studio (visualization tool). I put together the dashboard.
 
-+ данные обновляются автоматически каждое утро
-+ дашборды удобны и покрывают ключевые запросы пользователей.
++++ It’s convenient to work with data in the dashboard. Lots of filters, lots of graphs and tables. They cover all user requests, and it’s very easy to add new visuals.
 
-что мы видим на дашборде:
+--- still have to manually download data from Calendly every day.
+
+### Iteration 4.  
+
+Calendly and Zoom were replaced by Bigmarker. DWH appeared. I already have 2 analysts under direct subordination and 1 under project subordination. I secured the allocation of development resources for integrations. I drew up technical requirements for them: what specific data and how often do we need to transfer from BigMarker to the DWH. I created a task in Jira, where I wrote down these requirements. I met with the developers product manager - the task was taken into a sprint. 
+
+After 2 weeks the integrations were implemented. My analysts checked the data - everything was in order. I compiled the terms of reference for one of the analysts for creating a dataset in PostgreSQL, and the terms of reference for another analyst for visualization in Double cloud. I controlled the process, checked the result - done!
+
++++ data is updated automatically every morning
+
++++ dashboards are convenient and cover key user requests.
+
+What can we see on the dashboard:

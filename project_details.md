@@ -1,11 +1,11 @@
-## Webinar attendance dashboard (work project)
+## Webinar funnel dashboard (work project)
 
 This is a data visualization project for one of the companies (data blurred).
 - **Year:** 2022-2023 (several iterations)
 - **Stakeholders:** CMO, CEO.
 - **Users:** commercial department.
-- **Deadlines:** Iteration 1 release - 1 week, improvements - constantly.
-- **Business sense:** reflects the attendance statistics for each individual webinar, as well as generalized data by courses and languages.
+- **Deadlines:** Iteration 1 release - 1 day, improvements - constantly.
+- **Business sense:** reflects the attendance statistics for each individual webinar, as well as generalized data by courses and languages. Different teams, as well as analysts themselves, need a tool to access the data they need to develop recommendations and make decisions.
 - **My role:** data acquisition, data processing, connecting data sources to the GDS, joining tables, visualization. Last iteration - managing all the processes
 
 We launched a webinar funnel. But how to know how things are going? How many people **signed up** for the webinar, and how many **came** to it? Where to look to see these banal numbers, which are so necessary for understanding the situation and making decisions?
@@ -20,13 +20,7 @@ Every day I opened webinar services, write down the numbers in a Google spreadsh
 
 +++ fast implementation
 
---- a lot of manual labor.
-
---- impossible to scale
-
---- the human factor leads to errors
-
---- inflexibility and low detail of data.
+--- a lot of manual labor. I mpossible to scale. The human factor leads to errors. Inflexibility and low detail of data.
 
 ### Iteration 2. 
 
@@ -38,7 +32,7 @@ Every day I open webinar services, download tables with data, store them in **Go
 
 ### Iteration 3. 
 
-Grow Team automated uploading from Zoom to Google spreadsheet using a low-code tool after I insisted. I connected Google spreadsheets storing data on webinar registrations and visits to the Google data studio (visualization tool). I put together the dashboard by my own.
+Grow Team automated uploading from one of the webinar services to Google spreadsheet using a low-code tool after I insisted. I connected Google spreadsheets storing data on webinar registrations and visits to the **Google data studio** (visualization tool). I put together the dashboard by my own.
 
 +++ It’s convenient to work with data in the dashboard. Lots of filters, lots of graphs and tables. They cover all user requests, and it’s very easy to add new visuals.
 
@@ -63,3 +57,11 @@ After 2 weeks the integrations were implemented. My analysts checked the data - 
 ! The webinar at 21:00 stands out. It does not have a high CR, but it has a lot of registrations, and due to this - visits. Why did many times more people sign up for it than usual? There's a lot to explore here.
 
 <img src="Dash_for_Mitia_DC_blurred.jpg" width="400">
+
+^^^ Here we see a table with data on webinars, grouped by region and week. The heat map helps us to evaluate the dynamics of indicators and compare by region. The graphs reflect the general dynamics on a weekly basis without breakdown by region.
+
+<img src="CR_by_source_group_blurred.jpg" width="400">
+
+^^^ This is a very useful table. It shows how conversions differed across different traffic sources over the same period of time, as well as dynamics. Once this dashboard helped me figure out the reason for the drop in conversion (it lay in the launch of a new traffic source).
+
+This dashboard can and should be developed, so it will be continued (without me, because I quit).

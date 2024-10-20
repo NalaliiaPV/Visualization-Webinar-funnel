@@ -41,9 +41,9 @@ Grow Team automated uploading from one of the webinar services to Google spreads
 
 ### Iteration 4.  
 
-Two webinar services were replaced by new one. DWH appeared. I already have 2 analysts under direct subordination and 1 under project subordination. I secured the allocation of development resources for integrations. I drew up technical requirements for them: what specific data and how often do we need to transfer from BigMarker to the DWH. I created a task in Jira, where I wrote down these requirements. I met with the developers product manager - the task was taken into a sprint. 
+Two webinar services were replaced by new one. DWH appeared. I already have 2 analysts under direct subordination and 1 under project subordination. I secured the allocation of development resources for integrations. Drew up technical requirements for them: what specific data and how often do we need to transfer from BigMarker to the DWH. Created a task in Jira, where wrote down these requirements. Met with the developers product manager - the task was taken into a sprint. 
 
-After 2 weeks the integrations were implemented. My analysts checked the data - everything was in order. I compiled the terms of reference for one of the analysts for creating a dataset in PostgreSQL, and the terms of reference for another analyst for visualization in **Double cloud**. I controlled the process, checked the result - done!
+After 2 weeks the integrations were implemented. My analysts checked the data - everything was in order. Compiled the terms of reference for one of the analysts for creating a dataset in PostgreSQL, and the terms of reference for another analyst for visualization in **Double cloud**. Controlled the process, checked the result - done.
 
 +++ data is updated automatically every morning
 

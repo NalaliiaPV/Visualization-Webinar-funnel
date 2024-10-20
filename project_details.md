@@ -1,7 +1,6 @@
 ## Webinar funnel dashboard (work project)
 
 This is a data visualization project for one of the companies (data blurred).
-- **Year:** 2022-2023 (several iterations)
 - **Stakeholders:** CMO, CEO.
 - **Users:** commercial department.
 - **Deadlines:** Iteration 1 release - 1 day, improvements - constantly.
